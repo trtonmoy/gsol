@@ -19,8 +19,128 @@
       <link rel="stylesheet" href="assets/css/responsive.css">
       <link rel="stylesheet" type="text/css" href="npm/toastify-js/src/toastify.min.css">
       <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <style type="text/css">
+
+         .modal {
+           display: none;
+           position: fixed;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           background-color: rgba(0, 0, 0, 0.5);
+           z-index: 99999;
+           border-radius: 10px;
+         }
+   
+         .mod_content {
+           background-color: #131740;
+           width: 400px;
+           margin: 100px auto;
+           padding: 40px;
+         border-radius:10px;
+           text-align: center;
+         }
+   
+         /* Hide the modal when not displayed */
+         .hidden {
+           display: none;
+         }
+   
+         #yesButton {
+           padding: 8px 28px;
+         margin-right:15px;
+           outline: none;
+           border: none;
+           background-color: #6cff5c;
+           color: #fff;
+           border-radius: 30px;
+            cursor: pointer;
+         }
+         #noButton {
+           padding: 8px 28px;
+           outline: none;
+           border: none;
+           background-color: #2bd842;
+           color: #fff;
+           border-radius: 30px;
+            cursor: pointer;
+         }
+   .faq_inner .card-header h4 button::before{
+      display: none!important;
+   }
+   
+           @media screen and (max-width:768px){
+            .mod_content {
+          
+           width: 95%;
+          
+         }
+   .mob_space{
+      margin-top:50px
+   }
+        
+         }
+       </style>
    </head>
    <body>
+      <!-- modal section -->
+	 <div id="myModal" class="modal">
+      <div class="mod_content" style="background-color: #131740;">
+        <p style="color: #fff; font-size: 17px">
+          Ready To Enter in $GREEN World?
+        </p>
+    <div style="text-align: center;margin:0 auto;;display: flex;align-items: center;justify-content: center;">
+         <img src="/images/logo.png" style="width:100px;margin:20px 0" alt="">
+    </div>
+        <div class="flex_dis" style="display: flex;align-items: center;justify-content: center;;">
+       <button id="yesButton">Yes</button>
+        <button id="noButton">No</button>
+      </div>
+      </div>
+    </div>
+    <audio
+      style="opacity: 1"
+      id="closingAudio"
+      src="./Happy New Year 2024 __ Funny Meme _ Funny WhatsApp status _ Edits MukeshG(MP3_160K).mp3"
+    ></audio>
+   <script>
+    
+
+    window.onload = function () {
+      var modal = document.getElementById("myModal");
+      modal.style.display = "block";
+
+      // Close the modal when clicking outside of it
+      window.onclick = function (event) {
+        var closeButton = document.getElementById("closeModal");
+        var closingAudio = document.getElementById("closingAudio");
+
+        const yesButton = document.getElementById("yesButton");
+        const noButton = document.getElementById("noButton");
+
+        if (yesButton) {
+          modal.style.display = "none";
+          closingAudio.play();
+        } else {
+          if (noButton) {
+            modal.style.display = "none";
+            closingAudio.play();
+          }
+        }
+
+        // yesButton.addEventListener("click", function () {
+        //   modal.style.display = "none";
+        //   closingAudio.play();
+        // });
+
+        // // Hide the modal when "No" is clicked
+        // noButton.addEventListener("click", function () {
+        //   modal.style.display = "none";
+        // });
+      };
+    };
+  </script>
       <div class="preloader">
          <img src="./logo.png" alt="SmartMEME" width="512">
       </div>
@@ -43,14 +163,14 @@
                   </div>
                   <div class="social-btns">
                      <a target="_blank" href="buylink" class="default-btn">
-                     <span>Buy Now</span>
+                     <span>Buy $GREEN</span>
                      </a>
                   </div>
                </div>
             </nav>
          </div>
       </header>
-      <section id="home" class="banner">
+      <section style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url(./img.jpg);" id="home" class="banner">
          <div class="container">
             <div class="banner__wrapper">
                <div class="row g-5 align-items-center justify-content-center">
@@ -92,9 +212,10 @@
                </div>
             </div>
          </div>
-         <div style="display: none;">
-            <audio loop src="./Happy New Year 2024 __ Funny Meme _ Funny WhatsApp status _ Edits MukeshG(MP3_160K).mp3"></audio>
-         </div>
+         
+         <!-- <div style="display: none;">
+            <audio loop autoplay src="./Happy New Year 2024 __ Funny Meme _ Funny WhatsApp status _ Edits MukeshG(MP3_160K).mp3"></audio>
+         </div> -->
       </section>
      
       <!-- <section class="" id="tokenomics">

@@ -1072,7 +1072,7 @@ ol {
   content: "";
   height: 100%;
   width: 100%;
-  background-image: url(../../img.jpg);
+  /* background-image: url(../../img.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px -60px;
@@ -2203,7 +2203,7 @@ ol {
   content: "";
   height: 100%;
   width: 100%;
-  background-image: url(../images/banner/background4.png);
+  /* background-image: url(../images/banner/background4.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px -60px;
