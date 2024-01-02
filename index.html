@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <title>Green Wooden Dragon</title>
+	
+      <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+      <link rel="apple-touch-icon" sizes="180x180" href="./logo.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/aos.css">
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <link rel="stylesheet" href="assets/css/lightcase.css">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <link rel="stylesheet" type="text/css" href="npm/toastify-js/src/toastify.min.css">
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div class="preloader">
+         <img src="./logo.png" alt="SmartMEME" width="512">
+      </div>
+      <header class="header">
+         <div class="container">
+            <nav class="navbar navbar-expand-xl">
+               <a class="navbar-brand" href="index.html"><img src="./logo.png" alt="" id="header-logo"></a>
+               <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                  aria-label="Toggle navigation">
+               <span class="navbar-toggler--icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                     <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                     <a class="nav-link" href="#about">About</a>
+                     <a class="nav-link" href="twitterlink">Twitter</a>
+                     <a class="nav-link" href="tglink">Telegram</a>
+                     
+                  </div>
+                  <div class="social-btns">
+                     <a target="_blank" href="buylink" class="default-btn">
+                     <span>Buy Now</span>
+                     </a>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <section id="home" class="banner">
+         <div class="container">
+            <div class="banner__wrapper">
+               <div class="row g-5 align-items-center justify-content-center">
+                  <div class="col">
+                     <div class="banner__content text-center" data-aos="fade-up" data-aos-duration="2000">
+                        <h1 class="text--3d text-uppercase"> <span class="color--gradient-y">Green Wooden Dragon</h1>
+                        <p></p>
+                        <div class="editor-field editor-field__textbox">
+                          <div class="editor-field__label-container">
+                            <label class="editor-field__label">CONTRACT ADDRESS</label>
+                          </div>
+                          <div class="editor-field__container">
+                              <input style="font-size:72%;" type="text" class="editor-field__input" onblur="removeNoise(this, 'input')"  value="0x000000000000000000" readonly="readonly"/>
+                          </div>
+                          <span class="editor-field__bottom"></span>
+                          <div class="editor-field__noise"></div>
+                        </div>
+                        <div class="mb-4">
+                           <a href="solscan" type="button" id="copyButton" class="default-btn">Solscan</a>
+                           <a type="button" href="buylink" class="default-btn">Buy Now</a>
+                        </div>
+                        <div class="mb-4">
+                           
+                           <a type="button" href="chartlink" class="default-btn">Chart</a>
+                          
+                        </div>
+                        <ul class="social justify-content-center">
+                           <li class="social__item">
+                              <a href="twitterlink" target="_blank" class="social__link"><img src="assets/images/social/twitter.png"
+                                 alt="Twitter" id="twitter"></a>
+                           </li>
+                           <li class="social__item">
+                              <a href="tglink" target="_blank" class="social__link"><img src="assets/images/social/telegram.png"
+                                 alt="Telegram" id="telegram"></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div style="display: none;">
+            <audio loop src="./Happy New Year 2024 __ Funny Meme _ Funny WhatsApp status _ Edits MukeshG(MP3_160K).mp3"></audio>
+         </div>
+      </section>
+     
+      <!-- <section class="" id="tokenomics">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="section-header">
+                     <div class="section-header__content">
+                        <h2 class="color--gradient-y">Tokenomics</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row align-items-center">
+               <div class="col-lg-5 col-12">
+                  <div class="tokenomics-info">
+                     <ul>
+                        <li id="tokenomics-li">
+                           NAME: <span class="text-warning">EtherFlame</span><br>
+                           SYMBOL: <span class="text-warning">FLAME</span><br>
+                           TAX: <span class="text-info">0% / 0%</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-7 col-12">
+                  <div class="tokenomics-media ps-4 text-center">
+                     <img src="images/scanes/chart.png" alt="" id="tokenomics-logo">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> -->
+      <!-- <section class="roadmap-area padding-bottom" id="roadmap">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="section-header">
+                     <div class="section-header__content">
+                        <h2 class="color--gradient-y">Roadmap</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-4 col-lg-4 col-12">
+                  <div class="roadmap-card h-100">
+                     <h4>Phase 1</h4>
+                     <ul>
+                        <li><i class="fa fa-arrow-right"></i> Launch</li>
+                        <li><i class="fa fa-arrow-right"></i> Post-Launch marketing</li>
+                        <li><i class="fa fa-arrow-right"></i> Community Partnerships</li>
+                        
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-12 roadmap-1">
+                  <div class="roadmap-card h-100">
+                     <h4>Phase 2</h4>
+                     <ul>
+                        <li><i class="fa fa-arrow-right"></i> CoinGecko and Coinmarketcap Listings</li>
+                        <li><i class="fa fa-arrow-right"></i> Social infrastructure to support EtherFlame</li>
+                        
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-12 roadmap-2">
+                  <div class="roadmap-card h-100">
+                     <h4>Phase 3</h4>
+                     <ul>
+                        <li><i class="fa fa-arrow-right"></i> First CEX Listing</li>
+                        <li><i class="fa fa-arrow-right"></i> </li>
+                        
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> -->
+      <!-- <footer class="footer">
+         <div class="footer__wrapper padding-top padding-bottom">
+            <div class="container">
+               <div class="footer__content text-center t">
+                  <h2 class="color--gradient-y">Follow Us!</h2>
+                  <p>Stay Connected for the latest updates, news, and exciting developments in the EtherFlame community.</p>
+                  <ul class="social justify-content-center">
+                     <li class="social__item">
+                        <a href="twitterlink" target="_blank" class="social__link"><img src="assets/images/social/twitter.png" alt="Twitter" id="twitterFooter"></a>
+                     </li>
+                     <li class="social__item">
+                        <a href="tglink" target="_blank" class="social__link"><img src="assets/images/social/telegram.png" alt="Telegram" id="telegramFooter"></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="footer__copyright">
+            <div class="container">
+               <div class="text-center py-4">
+                  <p class=" mb-0">© 2023 All Rights Reserved <a href="#" class="color--theme-color">EtherFlame</a></p>
+               </div>
+            </div>
+         </div>
+      </footer> -->
+      <script src="assets/js/jquery-3.6.0.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/all.min.js"></script>
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      <script src="assets/js/aos.js"></script>
+      <script src="assets/js/lightcase.js"></script>
+      <script src="assets/js/countdown.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+      <script type="text/javascript" src="npm/toastify-js.js"></script>
+      <script>
+         let currentImage = 1;
+const totalImages = 3; // Update this with the total number of images you have
+const imageElement = document.getElementById('best-part-logo');
+function changeImage() {
+    currentImage = currentImage % totalImages + 1; // Loop through images
+    imageElement.classList.add('fade-out');
+    setTimeout(() => {
+        imageElement.src = `image${currentImage}.png`; // Change the image source
+        imageElement.classList.remove('fade-out');
+    }, 500); // This should match the CSS transition time
+}
+setInterval(changeImage, 2000); // Change image every 2 seconds
+      </script>
+      <script>
+         const removeNoise = (
+  { offsetParent: { offsetParent }, lastElementChild },
+  type
+) => {
+  let inputNoise;
+  if (type == "input") {
+    inputNoise = offsetParent.lastElementChild;
+    offsetParent.classList.remove("is-focused");
+  } else {
+    inputNoise = lastElementChild;
+  }
+  inputNoise.removeChild(inputNoise.childNodes[0]);
+};
+         const createSvg = (config) => {
+         let svgGroup = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+         svgGroup.setAttribute("x", config.svgGroupX);
+         svgGroup.setAttribute("y", config.svgGroupY);
+         let rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+         rect.setAttribute("x", config.rectX);
+         rect.setAttribute("y", config.rectY);
+         rect.setAttribute("width", config.noiseWidth);
+         rect.setAttribute("height", config.noiseHeight);
+         rect.setAttribute("class", "noise__el");
+         svgGroup.appendChild(rect);
+         let rectOnBorder = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "rect"
+         );
+         rectOnBorder.setAttribute("x", config.rectBorderX);
+         rectOnBorder.setAttribute("y", config.rectBorderY);
+         rectOnBorder.setAttribute("width", config.noiseWidth);
+         rectOnBorder.setAttribute("height", config.noiseHeight);
+         rectOnBorder.setAttribute("fill", "rgb(15, 16, 32)");
+         svgGroup.appendChild(rectOnBorder);
+         let animate = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "animate"
+         );
+         animate.setAttribute("attributeType", "CSS");
+         animate.setAttribute("attributeName", "opacity");
+         animate.setAttribute("id", config.id);
+         animate.setAttribute("from", "0");
+         animate.setAttribute("to", "1");
+         animate.setAttribute("dur", `${Math.random() + 0.1}s`);
+         animate.setAttribute("repeatCount", "indefinite");
+         animate.setAttribute(
+            "begin",
+            `${Math.random() + 0.1}s;${config.id}.end+${Math.random() + 0.1}s`
+         );
+         svgGroup.appendChild(animate);
+         return svgGroup;
+         };
+         const generateNoise = (e, type) => {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  let input, inputNoise, noiseColor;
+  if (type == "input") {
+    input = e.offsetParent;
+    e.parentElement.parentElement.classList.add("is-focused");
+    inputNoise = e.parentElement.parentElement.lastElementChild;
+    noiseColor = "rgb(112, 113, 156)";
+  } else {
+    input = e;
+    inputNoise = e.lastElementChild;
+    noiseColor = "rgb(73, 77, 195)";
+  }
+  let inputHeight = input.offsetHeight;
+  let inputWidth = input.offsetWidth;
+  svg.setAttribute("width", "300");
+  svg.setAttribute("height", "66");
+  let maxNumberOfHorizontalNoise = Math.round(inputWidth / inputHeight);
+  let maxNumberOfVerticalNoise = Math.round(inputHeight / 10 / 2);
+  let verticalNoiseToGenerateBottom = Math.floor(
+    Math.random() * (maxNumberOfHorizontalNoise - 1) + 1
+  );
+  let commonVerticalConfig = {
+    inputWidth,
+    noiseHeight: 2,
+    rectX: "4",
+    rectBorderX: "4",
+    rectBorderY: "14",
+    noiseColor
+  };
+  let commonHorizontalConfig = {
+    inputWidth,
+    maxNoiseWidth: 8,
+    minNoiseWidth: 2,
+    noiseWidth: 2,
+    rectBorderY: 14,
+    noiseColor
+  };
+  for (let i = 0; i <= verticalNoiseToGenerateBottom; i++) {
+    svg.appendChild(
+      createSvg({
+        ...commonVerticalConfig,
+        noiseWidth: Math.floor(Math.random() * (16 - 4) + 4),
+        svgGroupX: Math.floor(Math.random() * (inputWidth - 1) + 1),
+        rectY: Math.floor(Math.random() * (16 - 8) + 8),
+        svgGroupY: 46,
+        id: `bottom${i}`
+      })
+    );
+  }
+  let verticalNoiseToGenerateTop = Math.floor(
+    Math.random() * (maxNumberOfHorizontalNoise - 1) + 1
+  );
+  for (let i = 0; i <= verticalNoiseToGenerateTop; i++) {
+    svg.appendChild(
+      createSvg({
+        ...commonVerticalConfig,
+        noiseWidth: Math.floor(Math.random() * (16 - 4) + 4),
+        svgGroupX: Math.floor(Math.random() * (inputWidth - 1) + 1),
+        rectY: Math.floor(Math.random() * (20 - 8) + 8),
+        svgGroupY: 0,
+        id: `top${i}`
+      })
+    );
+  }
+  for (let i = 0; i <= maxNumberOfVerticalNoise; i++) {
+    svg.appendChild(
+      createSvg({
+        ...commonHorizontalConfig,
+        noiseHeight: Math.floor(Math.random() * (8 - 2) + 2),
+        rectX: "2",
+        rectY: Math.floor(Math.random() * (20 - 12) + 12),
+        svgGroupX: 0,
+        svgGroupY: Math.floor(Math.random() * (20 - 1) + 1),
+        id: `left${i}`,
+        rectBorderX: 0
+      })
+    );
+  }
+  for (let i = 0; i <= maxNumberOfVerticalNoise; i++) {
+    svg.appendChild(
+      createSvg({
+        ...commonHorizontalConfig,
+        noiseHeight: Math.floor(Math.random() * (8 - 2) + 2),
+        rectX: "0",
+        rectY: Math.floor(Math.random() * (20 - 12) + 12),
+        svgGroupX: inputWidth - 4,
+        svgGroupY: Math.floor(Math.random() * (20 - 5) + 5),
+        id: `right${i}`,
+        rectBorderX: 2
+      })
+    );
+  }
+  inputNoise.appendChild(svg);
+};
+         const initNoise = () => {
+         const inputs = document.querySelectorAll('.editor-field__input');
+         inputs.forEach(input => {
+            generateNoise(input, 'input');
+         });
+         };
+         window.onload = initNoise;
+      </script>
+      <script>
+         const copyInputValue = () => {
+         const input = document.querySelector('.editor-field__input');
+         const valueToCopy = input.value || input.placeholder;
+         navigator.clipboard.writeText(valueToCopy).then(() => {
+            Toastify({
+               text: "Contract address is copied to clipboard",
+               className: "info",
+               position: "center",
+               style: {
+                  background: "linear-gradient(to right, #00b09b, #96c93d)",
+               }
+            }).showToast();
+            input.setAttribute('readonly', 'readonly');
+         }).catch(err => {
+            console.error('Failed to copy text: ', err);
+         });
+         };
+         document.getElementById('copyButton').addEventListener('click', copyInputValue);
+      </script>
+</body>
+</html>
