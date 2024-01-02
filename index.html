@@ -6,21 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
       <title>Green Wooden Dragon</title>
-	
-      <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-      <link rel="apple-touch-icon" sizes="180x180" href="./logo.png">
-      <link rel="manifest" href="/site.webmanifest">
-      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-      <link rel="stylesheet" href="assets/css/aos.css">
-      <link rel="stylesheet" href="assets/css/all.min.css">
-      <link rel="stylesheet" href="assets/css/lightcase.css">
-      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-      <link rel="stylesheet" href="assets/css/style.css">
-      <link rel="stylesheet" href="assets/css/responsive.css">
-      <link rel="stylesheet" type="text/css" href="npm/toastify-js/src/toastify.min.css">
-      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-      <style type="text/css">
 
+      <style type="text/css">
          .modal {
            display: none;
            position: fixed;
@@ -38,7 +25,7 @@
            width: 400px;
            margin: 100px auto;
            padding: 40px;
-         border-radius:10px;
+           border-radius: 10px;
            text-align: center;
          }
    
@@ -49,98 +36,53 @@
    
          #yesButton {
            padding: 8px 28px;
-         margin-right:15px;
+           margin-right: 15px;
            outline: none;
            border: none;
-           background-color: #6cff5c;
-           color: #fff;
+           background-color: #fff420;
+           color: black;
            border-radius: 30px;
-            cursor: pointer;
+           cursor: pointer;
          }
          #noButton {
            padding: 8px 28px;
            outline: none;
            border: none;
-           background-color: #2bd842;
-           color: #fff;
+           background-color: #fff420;
+           color: black;
            border-radius: 30px;
-            cursor: pointer;
+           cursor: pointer;
          }
-   .faq_inner .card-header h4 button::before{
-      display: none!important;
-   }
+         .faq_inner .card-header h4 button::before {
+           display: none !important;
+         }
    
-           @media screen and (max-width:768px){
-            .mod_content {
-          
-           width: 95%;
-          
-         }
-   .mob_space{
-      margin-top:50px
-   }
-        
+         @media screen and (max-width: 768px) {
+           .mod_content {
+             width: 95%;
+           }
+           .mob_space {
+             margin-top: 50px;
+           }
          }
        </style>
+	
+      <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+      <link rel="apple-touch-icon" sizes="180x180" href="./logo.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/aos.css">
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <link rel="stylesheet" href="assets/css/lightcase.css">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <link rel="stylesheet" type="text/css" href="npm/toastify-js/src/toastify.min.css">
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      
    </head>
    <body>
-      <!-- modal section -->
-	 <div id="myModal" class="modal">
-      <div class="mod_content" style="background-color: #131740;">
-        <p style="color: #fff; font-size: 17px">
-          Ready To Enter in $GREEN World?
-        </p>
-    <div style="text-align: center;margin:0 auto;;display: flex;align-items: center;justify-content: center;">
-         <img src="/images/logo.png" style="width:100px;margin:20px 0" alt="">
-    </div>
-        <div class="flex_dis" style="display: flex;align-items: center;justify-content: center;;">
-       <button id="yesButton">Yes</button>
-        <button id="noButton">No</button>
-      </div>
-      </div>
-    </div>
-    <audio
-      style="opacity: 1"
-      id="closingAudio"
-      src="./Happy New Year 2024 __ Funny Meme _ Funny WhatsApp status _ Edits MukeshG(MP3_160K).mp3"
-    ></audio>
-   <script>
-    
-
-    window.onload = function () {
-      var modal = document.getElementById("myModal");
-      modal.style.display = "block";
-
-      // Close the modal when clicking outside of it
-      window.onclick = function (event) {
-        var closeButton = document.getElementById("closeModal");
-        var closingAudio = document.getElementById("closingAudio");
-
-        const yesButton = document.getElementById("yesButton");
-        const noButton = document.getElementById("noButton");
-
-        if (yesButton) {
-          modal.style.display = "none";
-          closingAudio.play();
-        } else {
-          if (noButton) {
-            modal.style.display = "none";
-            closingAudio.play();
-          }
-        }
-
-        // yesButton.addEventListener("click", function () {
-        //   modal.style.display = "none";
-        //   closingAudio.play();
-        // });
-
-        // // Hide the modal when "No" is clicked
-        // noButton.addEventListener("click", function () {
-        //   modal.style.display = "none";
-        // });
-      };
-    };
-  </script>
+      
       <div class="preloader">
          <img src="./logo.png" alt="SmartMEME" width="512">
       </div>
@@ -170,6 +112,76 @@
             </nav>
          </div>
       </header>
+       <!-- modal section -->
+    <div id="myModal" class="modal">
+      <div class="mod_content" style="background-color: #131740">
+        <p style="color: #fff; font-size: 17px">
+          Are you ready to explore  Wonderland ?
+        </p>
+        <div
+          style="
+            text-align: center;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <img
+            src="/images/pink.png"
+            style="width: 400px; margin: 20px 0"
+            alt=""
+          />
+        </div>
+        <div
+          class="flex_dis"
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <button id="yesButton">Yes</button>
+          <button id="noButton">No</button>
+        </div>
+      </div>
+    </div>
+    <audio
+      style="opacity: 1"
+      id="closingAudio"
+      src="./Happy New Year 2024 __ Funny Meme _ Funny WhatsApp status _ Edits MukeshG(MP3_160K).mp3"
+    ></audio>
+    <script>
+      window.onload = function () {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+
+        // Close the modal when clicking outside of it
+        window.onclick = function (event) {
+          var closeButton = document.getElementById("closeModal");
+          var closingAudio = document.getElementById("closingAudio");
+
+          const yesButton = document.getElementById("yesButton");
+          const noButton = document.getElementById("noButton");
+
+          if (yesButton) {
+            modal.style.display = "none";
+            closingAudio.play();
+          } else {
+            if (noButton) {
+              modal.style.display = "none";
+              closingAudio.play();
+            }
+          }
+
+          // yesButton.addEventListener("click", function () {
+          //   modal.style.display = "none";
+          //   closingAudio.play();
+          // });
+
+          // // Hide the modal when "No" is clicked
+          // noButton.addEventListener("click", function () {
+          //   modal.style.display = "none";
+          // });
+        };
+      };
+    </script>
       <section style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url(./img.jpg);" id="home" class="banner">
          <div class="container">
             <div class="banner__wrapper">
