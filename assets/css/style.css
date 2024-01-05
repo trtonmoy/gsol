@@ -1169,7 +1169,7 @@ ol {
   line-height: 50px;
   transform-origin: right;
   transition: all 0.3s ease;
-  background: linear-gradient(90deg, #dd7af4 0%, #620777 100%);
+  background: linear-gradient(90deg, #95a5a6 0%, #95a5a6 100%);
   box-shadow: 0 5px 0px 0px currentColor;
 }
 .default-btn span {
@@ -2533,4 +2533,19 @@ ol {
 }
 .sponsor-urls:hover {
   color: rgb(103, 70, 188);
+}
+
+/**********modified css**********/
+.header > .container {
+  background-color: #111;
+}
+
+.color--gradient-y {
+  background: linear-gradient(0deg, #95a5a6 0%, #95a5a6 100%) text;
+  -webkit-text-fill-color: transparent;
+  font-family: ARCADE, sans-serif !important;
+  font-size: 50px;
+}
+.header .navbar-nav {
+  background-color: #95a5a6;
 }
