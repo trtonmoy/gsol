@@ -17,9 +17,10 @@
     transition: opacity 1s ease-in-out;
     opacity: 1;
   }
-  .social {
-    gap: 34px;
-  }
+ .social {
+    gap: 32px;
+    margin: 37px 0;
+}
   .banner__content h1 {
     font-size: 30px;
   }
