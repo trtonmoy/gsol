@@ -662,7 +662,7 @@ a {
   color: #abff87 !important;
 }
 .color--gradient-y {
-  background: linear-gradient(0deg, rgb(255, 242, 242) 0%, #5df462 100%);
+  background: linear-gradient(0deg, rgb(255, 242, 242) 0%, #dd7af4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "ARCADE", sans-serif !important;
@@ -1127,7 +1127,7 @@ ol {
 .contact .form input:focus-within,
 .contact .form textarea:focus-within {
   outline: none;
-  border-color: rgba(171, 255, 135, 0.8);
+  border-color: #dd7af4;
 }
 .contact .form textarea {
   min-height: 250px;
@@ -1169,7 +1169,7 @@ ol {
   line-height: 50px;
   transform-origin: right;
   transition: all 0.3s ease;
-  background: linear-gradient(90deg, #54b95b 0%, #115f16 100%);
+  background: linear-gradient(90deg, #dd7af4 0%, #620777 100%);
   box-shadow: 0 5px 0px 0px currentColor;
 }
 .default-btn span {
