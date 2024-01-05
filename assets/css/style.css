@@ -1,21 +1,25 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Roboto+Serif:ital,opsz,wght@1,8..144,500;1,8..144,800&display=swap");
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
 
-@font-face {
+/* @font-face {
   font-family: "ARCADE";
   font-style: normal;
   src: url(../webfonts/ARCADE_N.TTF) format("truetype");
-}
+} */
 
 body {
   margin: 0;
-  font-family: "ARCADE", sans-serif !important;
+  font-family: "Roboto Serif", serif;
 }
+
 main {
   display: block;
 }
@@ -2026,19 +2030,19 @@ ol {
 }
 #telegram,
 #telegramFooter {
-  width: 80px !important;
-  height: 80px !important;
+  width: 60px !important;
+  height: 60px !important;
   max-width: none;
 }
 #twitter,
 #twitterFooter {
-  width: 80px !important;
-  height: 80px !important;
+  width: 60px !important;
+  height: 60px !important;
   max-width: none;
 }
 .social__link {
-  /* width: 50px;
-  height: 50px; */
+  width: 50px;
+  height: 50px;
   width: auto;
   height: auto;
   -webkit-transition: all 0.2s linear;
@@ -2548,4 +2552,38 @@ ol {
 }
 .header .navbar-nav {
   background-color: #95a5a6;
+}
+
+#copyButton {
+  width: 151px;
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: 0;
+}
+
+.social {
+  gap: 27px;
+}
+
+.social__link:hover {
+  background-color: transparent;
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Roboto Serif", serif;
 }
